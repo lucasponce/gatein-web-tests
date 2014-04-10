@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>GtnTest014-AddNewPageUnderHome</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">GtnTest014-AddNewPageUnderHome</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/portal/classic/home</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Home</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign in</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=username</td>
+	<td>root</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>gtn</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=signIn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Add New Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pageName</td>
+	<td>NewPage1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=i18nizedLabel</td>
+	<td>NewPage1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.NormalTab &gt; div.LeftTab &gt; div.RightTab &gt; div.MiddleTab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Columns Layout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>highlight</td>
+	<td>id=twoColumns</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseDownAt</td>
+	<td>id=twoColumns</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseMoveAt</td>
+	<td>id=twoColumns</td>
+	<td>-500,-150</td>
+</tr>
+<tr>
+	<td>mouseUpAt</td>
+	<td>id=twoColumns</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.MiddleTab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=web</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseDownAt</td>
+	<td>id=web_slash_IFramePortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseMoveAt</td>
+	<td>id=web_slash_IFramePortlet</td>
+	<td>-400,-100</td>
+</tr>
+<tr>
+	<td>mouseUpAt</td>
+	<td>id=web_slash_IFramePortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseDownAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseMoveAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td>-600,-200</td>
+</tr>
+<tr>
+	<td>mouseUpAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.EdittedSaveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
