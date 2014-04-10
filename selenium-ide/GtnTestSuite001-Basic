@@ -16,6 +16,8 @@
 <tr><td><a href="GtnTest006-ChangeUserSkin">GtnTest006-ChangeUserSkin</a></td></tr>
 <tr><td><a href="GtnTest007-BrowseThroughMenu">GtnTest007-BrowseThroughMenu</a></td></tr>
 <tr><td><a href="GtnTest008-CreateDashboardsPages">GtnTest008-CreateDashboardsPages</a></td></tr>
+<tr><td><a href="GtnTest009-CreatePageWithWizard">GtnTest009-CreatePageWithWizard</a></td></tr>
+<tr><td><a href="GtnTest010-MinMaxEditViewPortlet">GtnTest010-MinMaxEditViewPortlet</a></td></tr>
 </tbody></table>
 </body>
 </html>
