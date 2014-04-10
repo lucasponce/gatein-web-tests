@@ -18,6 +18,9 @@
 <tr><td><a href="GtnTest008-CreateDashboardsPages">GtnTest008-CreateDashboardsPages</a></td></tr>
 <tr><td><a href="GtnTest009-CreatePageWithWizard">GtnTest009-CreatePageWithWizard</a></td></tr>
 <tr><td><a href="GtnTest010-MinMaxEditViewPortlet">GtnTest010-MinMaxEditViewPortlet</a></td></tr>
+<tr><td><a href="GtnTest011-EditPageUsingWizard">GtnTest011-EditPageUsingWizard</a></td></tr>
+<tr><td><a href="GtnTest012-EditLayoutUsingWizard">GtnTest012-EditLayoutUsingWizard</a></td></tr>
+<tr><td><a href="GtnTest013-ChangeAccountProfileData">GtnTest013-ChangeAccountProfileData</a></td></tr>
 </tbody></table>
 </body>
 </html>

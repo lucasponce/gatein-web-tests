@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://localhost:8080/" />
-<title>GtnTest010-MinMaxEditViewPortlet</title>
+<title>GtnTest011-EditPageUsingWizard</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">GtnTest010-MinMaxEditViewPortlet</td></tr>
+<tr><td rowspan="1" colspan="3">GtnTest011-EditPageUsingWizard</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -48,68 +48,38 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=div.ControlIcon.MinimizedIcon</td>
+	<td>link=Edit Page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=web</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseDownAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseMoveAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td>-400,-200</td>
+</tr>
+<tr>
+	<td>mouseUpAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.EdittedSaveButton</td>
 	<td></td>
 </tr>
 <tr>
 	<td>pause</td>
 	<td></td>
 	<td>2</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=div.ControlIcon.NormalIcon</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td></td>
-	<td>2</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=div.ControlIcon.MaximizedIcon</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td></td>
-	<td>2</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=div.ControlIcon.NormalIcon</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td></td>
-	<td>2</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>css=button.PopupCategoryMask</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Edit</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=iframeUrl</td>
-	<td>http://jboss.org/</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=Save</td>
-	<td></td>
-</tr>
-<tr>
-	<td>pause</td>
-	<td></td>
-	<td>5</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
