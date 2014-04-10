@@ -16,3 +16,4 @@ Notes:
 
 [3] Some tests uses "break" command to introduce a text in a form. For example, in GtnTest003 captcha code has to be introduced manually.
 
+[4] Tests are designed to work on a clean installation of GateIn without any additional page created.
