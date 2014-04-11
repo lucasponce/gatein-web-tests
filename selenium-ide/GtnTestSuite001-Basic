@@ -22,6 +22,12 @@
 <tr><td><a href="GtnTest012-EditLayoutUsingWizard">GtnTest012-EditLayoutUsingWizard</a></td></tr>
 <tr><td><a href="GtnTest013-ChangeAccountProfileData">GtnTest013-ChangeAccountProfileData</a></td></tr>
 <tr><td><a href="GtnTest014-AddNewPageUnderHome">GtnTest014-AddNewPageUnderHome</a></td></tr>
+<tr><td><a href="GtnTest015-EditPageUnderHome">GtnTest015-EditPageUnderHome</a></td></tr>
+<tr><td><a href="GtnTest016-EditClassicLayout">GtnTest016-EditClassicLayout</a></td></tr>
+<tr><td><a href="GtnTest017-ApplicationRegistry-ImportApps">GtnTest017-ApplicationRegistry-ImportApps</a></td></tr>
+<tr><td><a href="GtnTest018-ApplicationRegistry-CreateCategory">GtnTest018-ApplicationRegistry-CreateCategory</a></td></tr>
+<tr><td><a href="GtnTest019-PageManagement-Search">GtnTest019-PageManagement-Search</a></td></tr>
+<tr><td><a href="GtnTest020-PageManagement-EditPage">GtnTest020-PageManagement-EditPage</a></td></tr>
 </tbody></table>
 </body>
 </html>

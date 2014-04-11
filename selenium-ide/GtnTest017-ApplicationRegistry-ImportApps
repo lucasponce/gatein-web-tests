@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>GtnTest017-ApplicationRegistry-ImportApps</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">GtnTest017-ApplicationRegistry-ImportApps</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/portal/classic/home</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Home</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign in</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=username</td>
+	<td>root</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>gtn</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=signIn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Application Registry</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Import Applications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>This action will automatically create categories and import all the gadgets and portlets on it.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Group Navigation Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=New Account</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Organization Management</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Page Management Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Register Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Site Redirects and Import/E...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=WSRP Configuration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.NormalTab &gt; div.TabLeft &gt; div.TabRight &gt; div.TabRepeat.ClearFix &gt; a.TabLabel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Gadget Wrapper Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Gadgets</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Calendar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Rss Reader</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Services Management</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Todo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Integration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Gadget Wrapper Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=IFrame Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Navigation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=System</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Breadcumbs Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Footer Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=HomePage Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Logo Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Navigation Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Portal Navigation Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Responsive Banner Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Responsive Community Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Responsive Features Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Responsive Footer Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Responsive Header Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Responsive Navigation Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Site Redirect Portlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Tabbed Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=web</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'SiteMap')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'WSRP')])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=WSRP Configuration</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
