@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>GtnTest021-PageManagement-AddNewPage</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">GtnTest021-PageManagement-AddNewPage</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/portal/classic/home</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Home</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign in</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=username</td>
+	<td>root</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>gtn</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=signIn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Page Management</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#UIPageBrowser &gt; div.UIAction &gt; a.ActionButton.LightBlueStyle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=name</td>
+	<td>OtherPageTest1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=title</td>
+	<td>OtherPageTest1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Page Layout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.DropDownSelectIcon</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Column Page Configs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@class='ItemTitle' and contains(text(), 'Two Columns Layout')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Permissions</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=publicMode</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@alt='Edit Page'])[12]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=web</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseDownAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseMoveAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td>-500,-300</td>
+</tr>
+<tr>
+	<td>mouseUpAt</td>
+	<td>id=web_slash_SiteMapPortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseDownAt</td>
+	<td>id=web_slash_IFramePortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseMoveAt</td>
+	<td>id=web_slash_IFramePortlet</td>
+	<td>-200,-200</td>
+</tr>
+<tr>
+	<td>mouseUpAt</td>
+	<td>id=web_slash_IFramePortlet</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.EdittedSaveButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td></td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@alt='Delete Page'])[12]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Do you want to delete this page?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sign out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
