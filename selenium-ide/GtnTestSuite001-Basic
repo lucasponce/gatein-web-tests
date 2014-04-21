@@ -29,6 +29,9 @@
 <tr><td><a href="GtnTest019-PageManagement-Search">GtnTest019-PageManagement-Search</a></td></tr>
 <tr><td><a href="GtnTest020-PageManagement-EditPage">GtnTest020-PageManagement-EditPage</a></td></tr>
 <tr><td><a href="GtnTest021-PageManagement-AddNewPage">GtnTest021-PageManagement-AddNewPage</a></td></tr>
+<tr><td><a href="GtnTest022-ServiceManagement-ReloadAllSkins">GtnTest022-ServiceManagement-ReloadAllSkins</a></td></tr>
+<tr><td><a href="GtnTest023-ServiceManagement-PortalStatistics">GtnTest023-ServiceManagement-PortalStatistics</a></td></tr>
+<tr><td><a href="GtnTest024-SiteRedirectAdmin">GtnTest024-SiteRedirectAdmin</a></td></tr>
 </tbody></table>
 </body>
 </html>
